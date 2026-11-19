@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EstySmart — Esther Isioma Abiazie. Creativity, technology, innovation and digital solutions.">
+  <meta name="theme-color" content="#081426">
+  <title>EstySmart | Esther Isioma Abiazie</title>
+  <style>
+    :root{--navy:#081426;--navy2:#10213a;--gold:#d7ad55;--blue:#246bce;--white:#f7f9fc;--muted:#b7c3d5;--line:rgba(215,173,85,.32)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--navy);color:var(--white);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.65}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1080px,92%);margin:auto}
+    header{padding:28px 0 0;text-align:center}
+    .banner{display:block;width:100%;max-height:260px;object-fit:cover;border:1px solid var(--line);border-radius:16px;box-shadow:0 18px 50px #0005}
+    .brand-title{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;margin:27px 0 8px;font-weight:900;letter-spacing:.04em}
+    .brand-title span{color:var(--gold)}
+    .tagline{color:var(--gold);font-weight:750;letter-spacing:.12em;text-transform:uppercase;font-size:.82rem}
+    .portrait-wrap{width:176px;height:176px;margin:25px auto 15px;padding:6px;border-radius:50%;border:2px solid var(--gold);background:linear-gradient(135deg,var(--gold),var(--blue))}
+    .portrait{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;background:var(--navy2)}
+    .role{max-width:850px;margin:12px auto 0;color:#e5edf8;font-weight:700}
+    .intro{max-width:760px;margin:12px auto 0;color:var(--muted)}
+    .actions{display:flex;justify-content:center;gap:13px;flex-wrap:wrap;margin:25px 0 35px}
+    .button{display:inline-block;padding:11px 20px;border-radius:8px;border:1px solid var(--gold);font-weight:800;font-size:.92rem}
+    .button.primary{background:var(--gold);color:#101a2a}.button:hover{transform:translateY(-2px)}
+    nav{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;padding:17px 0;border-block:1px solid #ffffff18}
+    nav a{color:var(--muted);font-size:.9rem}nav a:hover{color:var(--gold)}
+    section{padding:58px 0}.section-title{text-align:center;font-size:clamp(1.7rem,4vw,2.3rem);margin:0 0 8px}
+    .section-title span{color:var(--gold)}.section-intro{text-align:center;color:var(--muted);max-width:730px;margin:0 auto 28px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{background:linear-gradient(145deg,#ffffff0d,#ffffff05);border:1px solid #ffffff18;border-radius:13px;padding:21px}
+    .card h3{margin:0 0 8px;color:var(--white);font-size:1.05rem}.card p{margin:0;color:var(--muted);font-size:.93rem}
+    .skills{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;max-width:900px;margin:auto}
+    .skill{border:1px solid #246bce66;background:#246bce20;padding:8px 13px;border-radius:30px;color:#e5edf8;font-size:.88rem}
+    .projects{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}
+    .project{display:flex;flex-direction:column;gap:8px}
+    .project .type{font-size:.72rem;color:var(--gold);font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    .project h3{margin:0}.project p{margin:0 0 8px;color:var(--muted);font-size:.93rem}
+    .project a{color:var(--gold);font-weight:800;font-size:.9rem;margin-top:auto}
+    .education{max-width:780px;margin:auto;display:grid;gap:13px}
+    .edu{border-left:3px solid var(--gold);background:#ffffff09;padding:15px 18px;border-radius:0 9px 9px 0}
+    .edu strong{display:block}.edu small{color:var(--gold);font-weight:700}.edu p{color:var(--muted);margin:4px 0 0;font-size:.9rem}
+    .contact{background:#0d1e36;border-block:1px solid var(--line)}
+    .contact-links{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+    .contact-links a{padding:10px 15px;border:1px solid #ffffff22;border-radius:8px;color:#e8eef8}.contact-links a:hover{border-color:var(--gold)}
+    footer{text-align:center;padding:24px;color:var(--muted);font-size:.85rem}footer strong{color:var(--gold)}
+    @media(max-width:720px){.grid{grid-template-columns:repeat(2,1fr)}.banner{max-height:180px}section{padding:45px 0}}
+    @media(max-width:520px){.grid,.projects{grid-template-columns:1fr}.portrait-wrap{width:148px;height:148px}nav{gap:13px}.tagline{font-size:.7rem}}
+  </style>
+</head>
+<body>
+  <header class="wrap" id="home">
+    <!-- Upload README-banner.png to the same repository folder as this index.html -->
+    <img class="banner" src="README-banner.png" alt="EstySmart personal brand banner">
+    <h1 class="brand-title">ESTHER ISIOMA <span>ABIAZIE</span></h1>
+    <div class="tagline">EstySmart · Creativity. Technology. Innovation. Impact.</div>
+    <!-- Upload estysmart-profile.jpg to the same repository folder as this index.html -->
+    <div class="portrait-wrap">
+      <img class="portrait" src="estysmart-profile.jpg" alt="Esther Isioma Abiazie — EstySmart">
+    </div>
+    <p class="role">DATA ANALYST | MULTIMEDIA SPECIALIST | CYBERSECURITY &amp; DEVSECOPS ENTHUSIAST | DIGITAL SOLUTIONS CREATOR</p>
+    <p class="intro">Creative, analytical and technology-driven emerging digital professional exploring the intersection of data, design, multimedia and digital development.</p>
+    <div class="actions">
+      <a class="button primary" href="https://estysmart17.github.io/estysmart-portfolio/">VISIT MY WEBSITE ↗</a>
+      <a class="button" href="https://www.linkedin.com/in/estysmart" target="_blank" rel="noopener">LINKEDIN PROFILE</a>
+      <a class="button" href="mailto:isiomaabiazie17@gmail.com">CONTACT ME</a>
+    </div>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="#about">About Me</a><a href="#skills">Skills</a><a href="#projects">Featured Projects</a><a href="#education">Education</a><a href="#contact">Let's Connect</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <div class="wrap">
+        <h2 class="section-title">ABOUT <span>ME</span></h2>
+        <p class="section-intro">I bring analytical thinking and creative technology together to develop clear, engaging digital experiences. My interests span data analysis, visual communication, multimedia production, web-based concepts and emerging technology.</p>
+        <div class="grid">
+          <article class="card"><h3>My Approach</h3><p>Curiosity, attention to detail, continuous learning and a focus on creating useful, accessible and visually clear work.</p></article>
+          <article class="card"><h3>Creative Direction</h3><p>Turning ideas into visual identities, presentations, promotional content and thoughtful digital experiences.</p></article>
+          <article class="card"><h3>Technology Focus</h3><p>Building practical digital skills while developing foundational knowledge of cybersecurity and DevSecOps.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" style="background:#0b192d">
+      <div class="wrap">
+        <h2 class="section-title">SKILLS &amp; <span>EXPERTISE</span></h2>
+        <p class="section-intro">A developing combination of analytical, creative and digital capabilities.</p>
+        <div class="skills">
+          <span class="skill">Data Analysis &amp; Interpretation</span><span class="skill">Analytical Thinking</span>
+          <span class="skill">Data Presentation</span><span class="skill">Microsoft Word</span>
+          <span class="skill">Microsoft PowerPoint</span><span class="skill">Graphic &amp; Visual Design</span>
+          <span class="skill">Multimedia Design</span><span class="skill">Web Development</span>
+          <span class="skill">AI Prompt Engineering</span><span class="skill">Digital Advertising</span>
+          <span class="skill">Content Creation</span><span class="skill">Cybersecurity Fundamentals</span>
+          <span class="skill">DevSecOps Concepts</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <h2 class="section-title">FEATURED <span>PROJECTS</span></h2>
+        <p class="section-intro">Independent concepts and creative projects demonstrating my interests across digital solutions, design and educational content.</p>
+        <div class="projects">
+          <article class="card project"><div class="type">Web Development · Automotive</div><h3>ABI-JO Automobiles</h3><p>A modern automotive website concept designed around a polished digital showroom and a user-friendly vehicle browsing experience.</p><a href="https://abi-joautomobiles.lovable.app/" target="_blank" rel="noopener">EXPLORE WEBSITE ↗</a></article>
+          <article class="card project"><div class="type">Digital Product Concept</div><h3>Novelora</h3><p>A reading and writing platform concept focused on discovering stories, organising book categories and showcasing author content.</p></article>
+          <article class="card project"><div class="type">Visual Branding · Design</div><h3>Issy Arts and Design</h3><p>A creative design concept exploring promotional graphics, visual identity, logo styling and expressive digital artwork.</p></article>
+          <article class="card project"><div class="type">Multimedia · Real Estate</div><h3>HeckyBaba Real Estate Unlimited</h3><p>An AI-assisted promotional video concept using digital storytelling to communicate real-estate services.</p></article>
+          <article class="card project"><div class="type">Educational Publishing</div><h3>Microscopic Marvels</h3><p><em>The Hidden Universe Beneath the Microscope</em> — an educational science e-book project.</p></article>
+          <article class="card project"><div class="type">Educational Publishing</div><h3>Driven by Innovation</h3><p><em>The Technology and Vision Behind the Future of Cars</em> — an educational automotive technology e-book project.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" style="background:#0b192d">
+      <div class="wrap">
+        <h2 class="section-title">EDUCATION &amp; <span>TRAINING</span></h2>
+        <div class="education">
+          <article class="edu"><strong>West African Senior School Certificate (WASSCE/WAEC)</strong><small>St. Agnes Group of School · 2026</small></article>
+          <article class="edu"><strong>Multimedia Specialist Training</strong><small>ITeach Academy · 2026</small><p>AI-assisted video creation, graphics, website and application building, prompt engineering and digital content creation.</p></article>
+          <article class="edu"><strong>Microsoft Word Processing</strong><small>ITeach Academy · 2025</small><p>Document creation, formatting and professional word-processing workflows.</p></article>
+          <article class="edu"><strong>Microsoft PowerPoint Presentation</strong><small>July–August 2025</small><p>Presentation development and communicating information through slides.</p></article>
+          <article class="edu"><strong>Data Analysis</strong><small>Online training programme · 2025</small><p>One-month online training programme focused on foundational data-analysis skills.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <h2 class="section-title">LET'S <span>CONNECT</span></h2>
+        <p class="section-intro">Thank you for visiting my portfolio. Explore my work or connect with me through the links below.</p>
+        <div class="contact-links">
+          <a href="mailto:isiomaabiazie17@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/estysmart" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/estysmart17" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://estysmart17.github.io/estysmart-portfolio/" target="_blank" rel="noopener">My Portfolio Website ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><strong>EstySmart</strong> · Creativity. Technology. Innovation. Impact.<br>© <span id="year"></span> Esther Isioma Abiazie</footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
